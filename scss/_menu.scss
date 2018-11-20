@@ -72,4 +72,14 @@
       transform: translate3d(0, 0, 0);
     }
   }
+
+  &-branding {
+    background: $primary-color;
+    transform: translate3d(0, 100%, 0);
+    @include easeOut;
+
+    &.show {
+      transform: translate3d(0, 0, 0);
+    }
+  }
 }
